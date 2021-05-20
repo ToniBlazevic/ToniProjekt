@@ -1,0 +1,462 @@
+.sidenav {
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: darkblue;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background: url(/pattern.jpg);
+}
+
+.sidenav a {
+  padding: 20px 8px 10px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  text-align: center;
+  font-family: Oswald, sans-serif;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  font-size: 20px;
+  background-color: red;
+  transition-duration: 0.4s;
+}
+.slika1 {
+  width: 100%;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Oswald, sans-serif;
+}
+.logo1 {
+  width: 200px;
+  height: 70px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.pocetna {
+  background: url(/Hrana1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+.naslov {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
+  outline: black;
+  text-align: center;
+}
+.podnaslov1 {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+  outline: black;
+  text-align: center;
+}
+.podnaslov2 {
+  position: absolute;
+  top: 70%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+  outline: black;
+  text-align: center;
+}
+.button3 {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  position: absolute;
+  top: 85%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-family: Oswald, sans-serif;
+}
+
+.button3:hover {
+  transition-duration: 0.4s;
+  background-color: white;
+  color: red;
+}
+.mali {
+  text-align: center;
+  color: #818181;
+}
+.fb {
+  height: 25px;
+}
+.fb :hover {
+  opacity: 0.7%;
+  background-color: darkblue;
+}
+.about {
+  color: black;
+  height: 300px;
+  background-color: #faf3eb;
+}
+.naslov2 {
+  text-align: center;
+  padding-top: 0%;
+  font-size: 62px;
+  padding-left: 10%;
+}
+.podnaslov3 {
+  text-align: center;
+  font-size: 22px;
+  padding-left: 10%;
+  color: darkblue;
+  margin-top: 1%;
+}
+.tekst {
+  text-align: center;
+  margin-left: 30%;
+  font-size: 35px;
+  padding-left: 10%;
+  margin-right: 30%;
+}
+.crni {
+  width: 50%;
+  margin-left: 30%;
+}
+.dobrodosli {
+  font-family: Satisfy, sans-serif;
+  color: #d12913;
+  font-size: 26px;
+  padding-top: 5%;
+  text-shadow: none;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 30%;
+}
+.tekst2 {
+  text-align: center;
+  margin: 16px;
+}
+.dobrodosli2 {
+  font-family: Satisfy, sans-serif;
+  color: #d12913;
+  font-size: 26px;
+}
+.chef {
+  width: 50%;
+  height: 580px;
+  text-align: center;
+  border-radius: 10px;
+  border: 5px solid black;
+}
+.txt {
+  position: absolute;
+  top: 200%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: black;
+  outline: black;
+  text-align: center;
+  float: right;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.kuvar {
+  width: 50%;
+  position: relative;
+  margin-left: 20%;
+  top: 120%;
+}
+.naslov3 {
+  font-size: 62px;
+}
+.footer {
+  background-color: black;
+  color: gray;
+  top: 250%;
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+.prava {
+  margin-left: 10%;
+}
+.button2 {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-family: Oswald, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.hiring {
+  color: black;
+  height: 300px;
+  background-color: #faf3eb;
+}
+.button2:hover {
+  transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+}
+.skamp {
+  width: 100%;
+  height: 500px;
+}
+.naslovmenu {
+  position: absolute;
+  top: 20%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
+  outline: black;
+  text-align: center;
+}
+.podnaslovmenu {
+  position: absolute;
+  top: 33%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  outline: black;
+  text-align: center;
+}
+.menu {
+  background-color: #faf3eb;
+  height: 1500px;
+}
+.dessert {
+  position: absolute;
+  top: 65%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  color: black;
+  outline: black;
+  text-align: center;
+}
+.tekstmenu {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: black;
+  outline: black;
+  text-align: center;
+}
+.cijena {
+  border-radius: 8px;
+  background-color: darkblue;
+  width: 70px;
+  font-size: 20px;
+  height: 30px;
+  color: #f1f1f1;
+  padding: 2px;
+  top: 88%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 40%;
+  text-align: center;
+}
+.podtekstmenu {
+  position: absolute;
+  top: 84%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: gray;
+  outline: black;
+  text-align: center;
+}
+.tekstmenu2 {
+  position: absolute;
+  top: 80%;
+  right: 7%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: black;
+  outline: black;
+  text-align: center;
+}
+.podtekstmenu2 {
+  position: absolute;
+  top: 84%;
+  right: 23%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: gray;
+  outline: black;
+  text-align: center;
+}
+.cijena2 {
+  border-radius: 8px;
+  background-color: darkblue;
+  width: 70px;
+  font-size: 20px;
+  height: 30px;
+  color: #f1f1f1;
+  padding: 2px;
+  top: 88%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  right: 26%;
+  text-align: center;
+}
+.crna2 {
+  margin-top: 10%;
+  width: 60%;
+  margin-left: 24%;
+}
+.footer2 {
+  background-color: black;
+  color: gray;
+  top: 150%;
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+.prava {
+  margin-left: 10%;
+}
+.button1 {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-family: Oswald, sans-serif;
+}
+.roditelj {
+  display: flex;
+  position: absolute;
+  top: 115%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+.hranamenu {
+  width: 350px;
+  height: 350px;
+  border: 5px solid black;
+  border-radius: 8px;
+}
+.dijete1 {
+  flex: 50%;
+}
+.dijete2 {
+  flex: 50%;
+}
+.vege {
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 80%;
+}
+.contact {
+  height: 1400px;
+  background: url(./bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.potvrdi {
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  font-family: Oswald, sans-serif;
+  font-size: 20px;
+  padding: 3px;
+  width: 90px;
+}
+.potvrdi:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.4s;
+}
+.forma {
+  border-radius: 8px;
+  position: absolute;
+  top: 70%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 35%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+input {
+  width: 70%;
+  background-color: white;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+}
+.naslovcon {
+  position: absolute;
+  top: 12%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  outline: black;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+.footer3 {
+  background-color: black;
+  color: gray;
+  top: 140%;
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+img {
+  filter: brightness(70%);
+}
